@@ -1,0 +1,71 @@
+2021-09-29 17:46:56.8667||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:46:56.9240||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:46:56.9439||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:48:39.0294||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:48:39.1010||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:48:39.1208||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:51:00.7359||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:51:00.7934||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:51:00.8112||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:52:27.3960||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:52:27.4532||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:52:27.4722||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:53:15.9020||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:53:15.9670||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:53:15.9883||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:53:52.3869||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:53:52.4395||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:53:52.4546||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:53:55.6520|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.Exception: sad
+   at TranslationSystem.Services.TranslatorService.Translate(TranslatorViewModel translatorViewModel) in C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem\Services\TranslatorService.cs:line 18
+   at TranslationSystem.Controllers.HomeController.Index(TranslatorViewModel translatorViewModel) in C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem\Controllers\HomeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-09-29 17:55:45.7732||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:55:55.2758||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:55:55.2983||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:56:47.8949||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 17:56:50.7195||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 17:56:50.7364||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 17:57:00.0982|1|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request. System.Exception: XD
+   at TranslationSystem.Services.TranslatorService.Translate(TranslatorViewModel translatorViewModel) in C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem\Services\TranslatorService.cs:line 18
+   at TranslationSystem.Controllers.HomeController.Index(TranslatorViewModel translatorViewModel) in C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem\Controllers\HomeController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-09-29 17:59:58.9295||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 18:00:11.4686||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 18:00:11.4887||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 18:02:05.4075||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 18:02:05.4937||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 18:02:05.5147||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 
+2021-09-29 18:02:40.6313||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-29 18:02:40.6981||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production 
+2021-09-29 18:02:40.7176||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\krzys\Desktop\AFS_TEST\TranslationSystemMVC\TranslationSystem 

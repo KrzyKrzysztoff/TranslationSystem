@@ -1,0 +1,56 @@
+﻿@model TranslatorViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+}
+
+@if (Model == null)
+{
+    <form method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Text to tranalste</label>
+            <input asp-for="Contents.Text" type="text" class="form-control" placeholder="Enter text">
+            <span asp-validation-for="@Model.Contents.Text" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+else
+{
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Success</th>
+                <th scope="col">Translated</th>
+                <th scope="col">Text</th>
+                <th scope="col">Translation</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Success.Total</td>
+                <td>@Model.Contents.Translated</td>
+                <td>@Model.Contents.Text</td>
+                <td>@Model.Contents.Translation</td>
+                <td>@Model.Contents.CurrentDate</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+
+
+
